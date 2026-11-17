@@ -11,7 +11,7 @@ Sprint 1 burndown chart.
 ## Lab 3: Component modelling and architectural pattern selection
 Scenario: Self-Service Coffee Kiosk System.
 - `Lab3/Lab3_Coffee_Kiosk_Component_Diagram.png`: UML component diagram with 5 components (User Interface, Order Manager,
-  Payment Service, Receipt Printer, Menu and Pricing Database) in three layers, with four labelled interfaces
-  (Order, Payment, Receipt, Database).
+  Payment Service, Receipt Printer, Menu and Pricing Database) in three layers. Four interfaces use provided (ball) and
+  required (socket) notation: IOrder, IPayment, IReceipt, IMenuData. Payment status reaches the UI through the Order Manager.
 - `Lab3/Lab3_Coffee_Kiosk_Architecture_Justification.pdf` / `.docx`: one-page justification for choosing **Layered Architecture**,
-  covering separation of concerns, a security advantage and a performance benefit.
+  with a comparison against Microservices and Client-Server, plus the security and performance arguments.
